@@ -1,0 +1,150 @@
+éƒ‘æ®¿æ–°-2017221103005
+
+
+E -> TE'
+Sym: 1
+Read-in: 1 
+
+
+T-> FT'
+Sym: 1
+Read-in: 1 
+
+
+F -> i
+Sym: 1
+Read-in: 1 + 
+
+
+T' -> \0
+Sym: +
+Read-in: 1 + 
+
+
+E' -> ATE'
+Sym: +
+
+A -> +
+Sym: +
+
+T-> FT'
+Sym: 3
+Read-in: 1 + 3 
+
+
+F -> i
+Sym: 3
+Read-in: 1 + 3 * 
+
+
+T' -> MFT'
+Sym: *
+Read-in: 1 + 3 * 
+
+
+M -> *
+Sym: *
+Read-in: 1 + 3 * 
+
+
+F -> (E)
+Sym: (
+Read-in: 1 + 3 * ( 
+
+
+E -> TE'
+Sym: 2
+Read-in: 1 + 3 * ( 2 
+
+
+T-> FT'
+Sym: 2
+Read-in: 1 + 3 * ( 2 
+
+
+F -> i
+Sym: 2
+Read-in: 1 + 3 * ( 2 * 
+
+
+T' -> MFT'
+Sym: *
+Read-in: 1 + 3 * ( 2 * 
+
+
+M -> *
+Sym: *
+Read-in: 1 + 3 * ( 2 * 
+
+
+F -> i
+Sym: 7
+Read-in: 1 + 3 * ( 2 * 7 + 
+
+
+T' -> \0
+Sym: +
+Read-in: 1 + 3 * ( 2 * 7 + 
+
+
+E' -> ATE'
+Sym: +
+
+A -> +
+Sym: +
+
+T-> FT'
+Sym: 5
+Read-in: 1 + 3 * ( 2 * 7 + 5 
+
+
+F -> i
+Sym: 5
+Read-in: 1 + 3 * ( 2 * 7 + 5 ) 
+
+
+T' -> \0
+Sym: )
+Read-in: 1 + 3 * ( 2 * 7 + 5 ) 
+
+
+T' -> \0
+Sym: )
+Read-in: 1 + 3 * ( 2 * 7 + 5 ) 
+
+
+F -> (E)
+Sym: )
+Read-in: 1 + 3 * ( 2 * 7 + 5 ) 
+
+
+T' -> \0
+Sym: +
+Read-in: 1 + 3 * ( 2 * 7 + 5 ) + 
+
+
+E' -> ATE'
+Sym: +
+
+A -> +
+Sym: +
+
+T-> FT'
+Sym: i
+Read-in: 1 + 3 * ( 2 * 7 + 5 ) + i 
+
+
+F -> i
+Sym: i
+Read-in: 1 + 3 * ( 2 * 7 + 5 ) + i ÿ 
+
+
+T' -> \0
+Sym: ÿ
+Read-in: 1 + 3 * ( 2 * 7 + 5 ) + i ÿ 
+
+
+T' -> \0
+Sym: ÿ
+Read-in: 1 + 3 * ( 2 * 7 + 5 ) + i ÿ 
+
